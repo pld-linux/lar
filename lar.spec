@@ -4,7 +4,7 @@ Name:		lar
 %define	ver	5.1.1
 Version:	%{ver}
 Release:	1
-License:	Public domain
+License:	Public Domain
 Group:		Development/Tools
 Source0:	http://www.seasip.demon.co.uk/Unix/Lar/%{name}-%{version}.tar.gz
 # Source0-md5:	f737e27bc13bf757e22cca53fcd5fff3
