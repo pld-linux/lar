@@ -9,11 +9,6 @@ Group:		Development/Tools
 Source0:	http://www.seasip.demon.co.uk/Unix/Lar/%{name}-%{version}.tar.gz
 # Source0-md5:	f737e27bc13bf757e22cca53fcd5fff3
 URL:		http://www.seasip.demon.co.uk/Unix/Lar/
-BuildRequires:	autoconf
-BuildRequires:	automake
-BuildRequires:	cpmio-devel
-BuildRequires:	cpmredir-devel
-BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
