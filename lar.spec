@@ -1,5 +1,5 @@
 Summary:	LAR - Library Archiver for CP/M LU format libraries
-Summary(pl):	LAR - narzêdzie dla bibliotek w formacie LU z systemu CP/M
+Summary(pl.UTF-8):   LAR - narzÄ™dzie dla bibliotek w formacie LU z systemu CP/M
 Name:		lar
 %define	ver	5.1.2
 Version:	%{ver}
@@ -17,16 +17,16 @@ original CP/M library program LU is the product of Gary P.
 Novosielski. The primary use of lar is to combine several files
 together for upload/download to a personal computer.
 
-%description -l pl
-lar to uniksowe narzêdzie do manipulowania bibliotekami w formacie LU
-z systemu CP/M. Oryginalny program LU do bibliotek CP/M zosta³
-stworzony przez Gary'ego P. Novosielskiego. G³ównym zastosowaniem
-programu lar jest ³±czenie kilku plików w jeden w celu przes³ania lub
-¶ci±gniêcia na w³asny komputer.
+%description -l pl.UTF-8
+lar to uniksowe narzÄ™dzie do manipulowania bibliotekami w formacie LU
+z systemu CP/M. Oryginalny program LU do bibliotek CP/M zostaÅ‚
+stworzony przez Gary'ego P. Novosielskiego. GÅ‚Ã³wnym zastosowaniem
+programu lar jest Å‚Ä…czenie kilku plikÃ³w w jeden w celu przesÅ‚ania lub
+Å›ciÄ…gniÄ™cia na wÅ‚asny komputer.
 
 %package lbr
 Summary:	Shell script that allows the Midnight Commander to browse LBR files
-Summary(pl):	Skrypt dla Midnight Commandera pozwalaj±cy na przegl±danie plików LBR
+Summary(pl.UTF-8):   Skrypt dla Midnight Commandera pozwalajÄ…cy na przeglÄ…danie plikÃ³w LBR
 Group:		Applications/File
 Version:	5.10
 Requires:	%{name} = %{ver}
@@ -37,10 +37,10 @@ lbr is a shell script which, used in conjunction with lar, allows the
 Midnight Commander (mc) to browse inside LBR files in the same way
 that it can browse TAR files.
 
-%description lbr -l pl
-lbr to skrypt pow³oki dla Midnight Commandera (mc), który, w
-po³±czeniu z larem, pozwala na przegl±danie zawarto¶ci plików LBR w
-ten sam sposób, co plików TAR.
+%description lbr -l pl.UTF-8
+lbr to skrypt powÅ‚oki dla Midnight Commandera (mc), ktÃ³ry, w
+poÅ‚Ä…czeniu z larem, pozwala na przeglÄ…danie zawartoÅ›ci plikÃ³w LBR w
+ten sam sposÃ³b, co plikÃ³w TAR.
 
 %prep
 %setup -q
