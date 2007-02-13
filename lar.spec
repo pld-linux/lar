@@ -1,5 +1,5 @@
 Summary:	LAR - Library Archiver for CP/M LU format libraries
-Summary(pl.UTF-8):   LAR - narzędzie dla bibliotek w formacie LU z systemu CP/M
+Summary(pl.UTF-8):	LAR - narzędzie dla bibliotek w formacie LU z systemu CP/M
 Name:		lar
 %define	ver	5.1.2
 Version:	%{ver}
@@ -26,7 +26,7 @@ programu lar jest łączenie kilku plików w jeden w celu przesłania lub
 
 %package lbr
 Summary:	Shell script that allows the Midnight Commander to browse LBR files
-Summary(pl.UTF-8):   Skrypt dla Midnight Commandera pozwalający na przeglądanie plików LBR
+Summary(pl.UTF-8):	Skrypt dla Midnight Commandera pozwalający na przeglądanie plików LBR
 Group:		Applications/File
 Version:	5.10
 Requires:	%{name} = %{ver}
